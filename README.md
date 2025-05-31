@@ -28,7 +28,8 @@ npm run testes
 
 Abaixo, uma demonstração de como os testes são executados:
 
-![Demonstração do sistema](demonstracao.gif)
+![Demonstração do sistema](./testes/demonstracao.gif)
+
 
 ---
 

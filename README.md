@@ -1,4 +1,4 @@
-# 🧪 Trabalho Final - Programação para Automação de Testes
+# 🧪 Trabalho Final da disciplina Programação para Automação de Testes
 
 Este repositório contém a resolução do exercício final da disciplina **Programação para Automação de Testes**, do curso de pós-graduação em **Automação de Testes de Software (PGATS)**.
 

@@ -23,8 +23,8 @@ jobs:
 
       # instalação das dependências
       - name: Instalando dependências
-        run: npm install -g
+        run: npm install 
 
-      # executar os testes e2e
-      - name: Executando os testes E2E
+      # executar os testes
+      - name: Executando os testes 
         run: npm run testes

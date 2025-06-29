@@ -30,7 +30,5 @@ jobs:
           node-version: 22.x
       - name: Instalando dependências
         run: npm install 
-      - name: Criando pasta de resultados
-        run: mkdir -p ./test-results
       - name: Executando os testes 
         run: npm run teste:relatorio

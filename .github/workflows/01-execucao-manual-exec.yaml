@@ -23,7 +23,7 @@ jobs:
       - name: Checando padronizacao do código
         run: npm run lint
 
-  e2e-tests:
+  testes:
     runs-on: ubuntu-latest
     needs: [inspecao]
 

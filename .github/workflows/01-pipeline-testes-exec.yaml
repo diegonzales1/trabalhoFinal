@@ -1,0 +1,30 @@
+
+name: '01-execução-manual'
+
+on:
+  workflow_dispatch:
+
+# trabalho/tarefas dentro do pipeline = jobs
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+
+    # passos do script de build
+    steps:
+      # clone do projeto
+      - name: Clonando o projeto
+        uses: actions/checkout@v4
+
+      # instalação do node
+      - name: Instalando Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      # instalação das dependências
+      - name: Instalando dependências
+        run: npm install -g
+
+      # executar os testes e2e
+      - name: Executando os testes E2E
+        run: npm run testes

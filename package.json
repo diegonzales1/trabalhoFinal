@@ -8,8 +8,7 @@
     "testes": "mocha testes/*.js",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
-    "teste:relatorio": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/results.xml 'test/**/*.js'"
-    
+    "testes:relatorio": "mocha testes/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/results.xml"
   },
   "keywords": [],
   "author": "Diego Gonzales de Andrade",

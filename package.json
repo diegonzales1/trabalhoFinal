@@ -2,16 +2,22 @@
   "name": "exerciciofinal",
   "version": "1.0.0",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testes": "mocha testes/*.js"
+    "testes": "mocha testes/*.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix"
   },
   "keywords": [],
   "author": "Diego Gonzales de Andrade",
   "license": "ISC",
   "description": "Resolução do exercicio final da disciplina de Programação para Automação de Testes do curso de pós-graduação Automação de Testes de Software - PGATS",
   "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "eslint": "^9.30.0",
+    "eslint-plugin-mocha": "^11.1.0",
+    "globals": "^16.2.0",
     "mocha": "^11.5.0"
   }
 }

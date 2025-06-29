@@ -7,11 +7,7 @@ export function verificarSePodeSerAdotado(idade, porte) {
   console.log(
     `Verificando se o pet pode ser adotado, idade: ${idade}, porte: ${porte}`,
   );
-  if ((idade = 1 && porte.toUpperCase() === 'M')) {
-    return true;
-  } else {
-    return false;
-  }
+  return idade === 1 && porte.toUpperCase() === 'M';
 }
 
 export function calcularConsumoDeRacao(nome, idade, peso) {

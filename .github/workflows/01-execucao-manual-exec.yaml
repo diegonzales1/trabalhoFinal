@@ -39,6 +39,8 @@ jobs:
       - name: Instalando dependências
         run: npm install 
 
+      - run: mkdir -p ./test-results
+      
       - name: Executando os testes 
         run: npm run teste:relatorio
 
